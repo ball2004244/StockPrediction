@@ -22,7 +22,7 @@ def setup_graph():
     ax.axhline(y=0, color='k')
     ax.axvline(x=0, color='k')
 
-    ax.set_xlim([-10, 10])
-    ax.set_ylim([-5, 10])
+    ax.set_xlim([-3, 5])
+    ax.set_ylim([-3, 6])
 
     plt.show()

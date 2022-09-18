@@ -3,6 +3,9 @@ A basic prediction make by supervised learning (ML)
 
 Current model: Linear Regression
 
+FILE PROCESSING ORDER:
+data_scraping.py -> process.py -> main.py (linear reg)
+
 *How Supervised Learning work?
 Supervised Learning has inputs of labeled data, meaning that we have to put in all combinations of (x, y). Then the model will draw the graph based on these points. Purpose of training supervised learning model: In the future, if you just input x, it will predict the matching y.
 
