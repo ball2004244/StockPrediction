@@ -12,13 +12,14 @@ price_list = []
 # iterating over each row and append
 # values to empty list
 for col in file:
-    price_list.append(col['Close'])
+    price_list.append(float(col['Close']))
     
 
 time_list = []
 for i in range(len(price_list)):
-    time_list.append(i)
+    time_list.append(int(i))
 
-print(time_list)
-print(price_list)
+# print('Time list: ', time_list)
+# print('\n')
+# print('Price list: ', price_list)
 

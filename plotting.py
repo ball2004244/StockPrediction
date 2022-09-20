@@ -15,14 +15,14 @@ def setup_graph():
     plt.xlabel('x - axis')
     plt.ylabel('y - axis')
 
-    plt.title('Just A Graph')
+    plt.title('Graph')
     plt.legend()
 
     ax = plt.gca()
     ax.axhline(y=0, color='k')
     ax.axvline(x=0, color='k')
 
-    ax.set_xlim([-3, 5])
-    ax.set_ylim([-3, 6])
+    ax.set_xlim([-2, 300])
+    ax.set_ylim([-10, 75])
 
     plt.show()
