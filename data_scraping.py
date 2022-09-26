@@ -58,6 +58,6 @@ time_list = []
 for i in range(len(price_list)):
     time_list.append(int(i))
 
-#print('Time list: ', time_list)
-#print('\n')
-#print('Price list: ', price_list)
+# print('Time list: ', time_list)
+# print('\n')
+# print('Price list: ', price_list)
