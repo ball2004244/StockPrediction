@@ -1,5 +1,7 @@
 # StockPrediction
-A basic prediction make by supervised learning (ML)
+## Intro
+A basic prediction make by supervised learning (ML).
+Functionality: Predict stock price mathematically, without considering other factors such as environment, economics, or politics.
 
 Current model: Linear Regression
 
